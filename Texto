@@ -1,0 +1,159 @@
+*** Proposta_Proj_Final_Neuma_V1.4_Bibliografia ***
+
+
+
+Resumo
+
+	Com a expansão de empresas no mercado de trabalho eletro-eletrônico, muitos de seus setores tornam-se corporativos devido ao fato de manter somente a mão-de-obra suficiente para atender as diversas necessidades. Um dos problemas enfrentados devido a esse modelo de gestão é o gerenciamento de atividades, pois há a possibilidade do gestor ficar sitiado em uma cidade ou país e parte de sua equipe ficar em outro lugar.
+	Baseado no problema apresentado propõe-se o desenvolvimento de um Sistema Web que auxilie o gestor na delegação, distribuição e organização de tarefas. Com esse sistema, espera-se que o processo de análise para o rateio do custo da mão-de-obra, bem como justificar a necessidade do quadro de funcionários possa tornar-se mais ágil e que se obtenha o resultado necessário para fazer a melhor distribuição do recurso humano por site x empresa x atividade x tempo despendido.
+
+
+ 
+
+ 
+
+	INTRODUÇÃO
+
+	Muitas empresas Chinesas do ramo industrial de eletro-eletrônico vêm se destacando e expandindo suas filiais em diversas partes do mundo para acompanhar o crescimento do mercado lucrativo.
+	A partir desse fato surgiu a necessidade de adoção do modelo de gerenciamento corporativo para manter um quadro de funcionários mais “enxuto”, com atividades compartilhadas entre os diversos sites para obtenção de agilidade na tomada de decisão, tecnologia e maior lucro em um curto espaço de tempo.
+	E analisando esse modelo, o gestor nem sempre ficará sitiado no mesmo país/cidade que a sua equipe. Pode ser que por algumas vezes ao longo do ano, ele tenha que se deslocar para verificar o andamento de projetos, sentir o clima organizacional da equipe, fazer entrevistas com novos candidatos in lócus, participar de reuniões ou eventos onde é imprescindível a sua presença, mas precisará ater-se a seguinte questão:
+	“Como fazer o gerenciamento das atividades do grupo sem que consiga fazer-se onipresente e onisciente?”
+	Analisando esse paradigma é que propomos um sistema que gerencie essas atividades por site x empresa x atividade x tempo despendido.
+
+	ESPECIFICAÇÃO DO PROBLEMA
+	
+	O gerenciamento de atividades de um departamento sem que o gestor esteja presente pode ocasionar erro de análise no rateio de custo da mão-de-obra despendida em cada projeto, o quanto de esforço é exigido por site, qual a atividade que demanda mais tempo, onde é preciso “enxertar” mais recursos e também pode não gerar uma boa justificativa do quadro de funcionários que compõem aquele setor.
+Com a globalização, precisamos de recursos para a rápida tomada de decisão e gerar lucro para a empresa. Portanto, este trabalho aborda o problema de gerenciamento de atividades em um ambiente corporativo.
+	
+	OBJETIVOS
+
+	O objetivo principal é o desenvolvimento de um sistema web para gerenciamento de atividades em um ambiente corporativo.
+	Os objetivos específicos são:
+	Auxiliar o gestor na delegação, distribuição e organização das tarefas;
+	Aperfeiçoar o tempo de análise para o rateio de custo da mão-de-obra em cada projeto x empresa;
+	Justificar a necessidade do quadro de mão-de-obra;
+	Auxiliar o próprio funcionário a analisar o que mais está demandando o seu tempo no dia-a-dia das tarefas.
+
+
+APRESENTAÇÃO DOS RESULTADOS
+
+	Os resultados serão baseados na análise de dados obtidos a partir do protótipo de software que será desenvolvido. Esses dados serão coletados através de um problema do mundo real e serão alimentados diretamente no sistema por cada funcionário, durante as suas atividades. 
+	Uma vez alimentados, deverão gerar relatórios para a análise do estudo de caso.
+
+
+
+
+
+ASPECTOS DE INOVAÇÃO
+
+	O protótipo do sistema será um desenvolvimento dedicado ao estudo de caso, onde a manutenção do software, o treinamento para o uso da ferramenta será levada em consideração que serão efetuados pela equipe interna da empresa.
+	A principio será aplicado ao próprio setor de Tecnologia da Informação, podendo estender-se para os demais setores corporativos, que trabalham diretamente com projetos. Ficará disponível em ambiente de aplicação WEB para que em qualquer lugar em que gestor ou o funcionário se encontre, possam acessar todos os dados necessários para a obtenção de relatório e analise do que é preciso para aquele determinado momento.  
+	
+TRABALHOS RELACIONADOS
+
+Os softwares para gerenciamento de projetos/atividades que serão utilizados como base teórica para o desenvolvimento deste protótipo podem ter várias funcionalidades: vai desde o agendamento de atividades, determinação do grau de prioridade a ser realizado, compartilhamento de atividades, apontamento de horas despendidas para cada atividade até fórum para discussão de lições aprendidas.
+Alguns foram desenvolvidos para plataforma mobile, pensando justamente na mobilidade de cada usuário e fácil acesso das informações. Outros foram desenvolvidos para Desktop e também para a plataforma WEB, que será o nosso foco principal, visto que precisaremos extrair relatórios gerenciais que facilitem a analise e tomada de decisão.
+A seguir uma breve descrição de cada trabalho relacionado e suas funcionalidades:
+ 1 - Gerenciamento de Projetos em Dispositivos Móveis – Uma Evolução ao DotProject.
+	Essa pesquisa faz referencia ao gerenciamento de projetos, utilizando uma ferramenta de código aberto – DotProject – e estendendo para dispositivos móveis. Como o próprio autor – Glauco Silva Neves – cita: “Com respeito às aplicações móveis é importante considerar a utilidade das aplicações sendo desenvolvidas. Nem todas as aplicações fazem sentido em serem estendidas para dispositivos móveis.
+(...) Conforme observado no estado da arte, o uso de dispositivos móveis no gerenciamento de projetos faz sentido principalmente no monitoramento e controle de projetos.” 
+Visando o paradigma exposto, para este primeiro protótipo, o autor escolheu as seguintes funcionalidades:
+	1.1 - Visualização das características do projeto;
+	1.2 - Visualização das tarefas atrasadas;
+	1.3 - Comunicação com os responsáveis pela tarefa atrasada: via email ou via telefone.
+	
+2 – Desenvolvimento de Ferramenta Customizada para Gerenciamento de Múltiplos Projetos.
+Essa pesquisa baseia-se no desenvolvimento de uma ferramenta própria e é dedicada ao atendimento de um estudo de caso específico: atender aos requisitos de um Escritório de Gerenciamento de Projetos, levando em consideração o custo x benefício, onde o autor – Antonio Augusto Carvalho da Rocha – cita que: “(...) este estudo analisa o processo de implantação de uma ferramenta customizada para gerenciamento de múltiplos projetos, como apoio à implantação de um PMO.(...)”.
+A ferramenta foi desenvolvida para ser aplicada em uma empresa de telefonia móvel celular, com sede localizada em São Paulo. Para isso foi observado que existia um grande numero de pessoas que gerenciavam alguns projetos, fazendo com que houvesse a necessidade da implantação de um PMO.
+Para o cenário proposto, foi desenvolvida uma ferramenta com módulos independentes e que atuam de forma integrada com o objetivo de proporcionar ao usuário um controle efetivo de todos os projetos sob sua responsabilidade.
+Eis os seguintes módulos:
+2.1 – Gestão de Projetos  para controlar os projetos desenvolvidos na empresa;
+2.2 – Gestão Orçamentária  para controlar os recursos orçamentários da empresa;
+2.3 – Gestão de Processos  permite o cadastramento de processos definidos;
+2.4 – Gestão de Recursos  onde o recurso humano está aplicado e como está distribuído; 
+2.5 – Relatórios Gerenciais  elaboração de relatórios gerenciais. 
+
+3 – Gerenciando Projetos usando Ferramentas de Software Livre. Alternativas disponíveis no mercado.
+Este trabalho mostra um estudo de caso sobre o uso das ferramentas de Software Livre para administração de projetos. 
+O autor – Alexandre Machado Silva – diz que: “O uso destas ferramentas tem o intuito não só de ajudar no processo de gerenciamento do projeto, como também, fazer com que o uso de ferramentas de software livre tornem o investimento em software menor.”
+Nesta fonte são abordadas os tipos de Sistema Operacional, Suíte de Escritório, Navegador, Servidores Web, Banco de Dados, Linguagem de Programação, Gerenciador de Projetos e outras ferramentas que serão úteis no trabalho diário do gerente de projeto.
+São citados três softwares para gerenciamento de projeto:
+3.1 – DotProject é um aplicativo Web que contém:
+3.1.1 – Informações de empresas;
+3.1.2 – Informações de projeto de cada empresa;
+3.1.3 – O registro de todas as tarefas por projeto;
+3.1.4 – Mostra o quanto de cada tarefa foi realizada;
+3.1.5 – Gráfico de Gantt;
+3.1.6 – Informação de usuário e colaboradores por tarefa;
+3.1.7 – Envio de email associado a usuário e tarefa;
+3.1.8 – Lembrete popup sobre prazos próximos ao vencimento;
+3.1.9 – Lista de contato relacionada;
+3.1.10 – Calendário com visões: mensal, semanal e diária;
+3.1.11 – Fóruns relacionados a projetos;
+3.1.12 – Repositórios de arquivos relacionados a projeto.
+3.2 – Gantt Project possui código aberto desenvolvido por uma comunidade mundial:
+3.2.1 – Permite a exibição do “Caminho Critico”;
+3.2.2 – Permite obtenção de lista de pessoas em outro projeto e insira-as em projeto aberto;
+3.2.3 - Relações entre duas tarefas podem ser de diversas formas: Fim-Início, Fim-Fim, Início-Fim e Início-Início; 
+3.2.4 - Possível selecionar múltiplas tarefas na árvore para algumas ações como mover acima, abaixo, excluir, indentar, desindentar e remover vínculo; 
+3.2.5 – Envio de e-mails para as pessoas envolvidas em seus projetos diretamente; 
+3.2.6 - Personalizar os conteúdos para a exibição do gráfico Gantt; 
+3.2.7 - As opções, disponíveis na caixa de diálogo Opções ou no menu de contexto do gráfico permitem a exibição de nomes, datas, durações, porcentagem completada e até mesmo pessoas diretamente no gráfico; 
+3.2.8 - O GanttProject é parcialmente compatível com o Microsoft Project, podendo importar e exportar arquivos produzidos pelo Microsoft Project usando ferramentas especiais de importação e exportação; 
+3.2.9 - Possui recursos de exportação de relatórios para HTML, JPEG e PDF; 
+3.2.10 - Cria gráficos Pert-CPM. 
+3.3 – NetOffice possui uma interface intuitiva e de fácil aprendizado:
+3.3.1 - Controlar e compartilhar informações sobre: projetos, tarefas, grupos, notificações, delegações, caminho crítico e muito mais. 
+3.3.2 - O usuário poderá organizar os seus projetos, estipulando tarefas, prazos e metas e vinculando estes as pessoas de sua equipe de trabalho. 3.3.3 - Está disponível no idioma português.
+
+4 - Gerenciamento de Projetos aplicado no desenvolvimento de software.
+Este trabalho mostra a aplicação de um software de gerenciamento de projeto em um projeto da área de Tecnologia da Informação em frente a um estudo de caso, onde foi desenvolvido um sistema para fazer a cobrança de usuários de recursos hídricos.
+Para a aplicação de gestão de projetos foi utilizado o MS Project, que contém alguns recursos como:
+4.1 - Tempo (cronograma do projeto);
+4.2 – Escopo;
+4.3 – Definição de Atividades e seqüenciá-las;
+4.4 - Gráfico de Gantt;
+4.5 - Diagrama de rede e custos (tempo e recursos: materiais ou pessoas que trabalharão no projeto);
+4.6 – Encerramento do projeto avisando os patrocinadores;
+4.7 – Relatórios sobre o desempenho do projeto.
+
+	5 – Gerenciamento ágil de projetos: proposta e avaliação de método para gestão de escopo e tempo. 
+O estudo para este projeto, como cita o autor – Edivandro Carlos Conforto - está baseado em: “(...) investigar a aplicação prática desses princípios no desenvolvimento de novos produtos. Para tal, foi adotada a seguinte estratégia: desenvolver, implantar e avaliar um método para planejamento e controle de escopo e tempo utilizando como base um conjunto de princípios do gerenciamento ágil de projetos.(...)
+Diante da necessidade de otimizar a documentação e registro das informações geradas no projeto, adotou-se como solução um software para gestão de projetos (...).” 
+Neste contexto, o software DotProject desempenha um papel de apoio para:
+5.1 – Armazenar o histórico do projeto;
+5.2 – Permitir uma visão multiprojetos (portfólio de projetos);
+5.3 – Gerar relatório com indicadores de desempenho específico (auxilio para a tomada de decisão). 
+	
+
+	METODOLOGIA DE DESENVOLVIMENTO
+
+Para desenvolver o novo aplicativo para gerenciamento de atividades em um ambiente corporativo, este trabalho está baseado em 5 etapas:
+	1 - Pesquisa Bibliográfica: onde foi feita a escolha dos trabalhos relacionados, que serão usados como base para esta pesquisa;
+	2 - Fundamentação Teórica: onde será feita a pesquisa de toda a base para o desenvolvimento desta ferramenta;
+	3 - Levantamento de Requisitos e casos de uso: onde será feita a abordagem de especificações técnicas e para qual publico alvo será direcionado, fazendo a comparação com o que já existe no mercado de software destinado para;
+	4 - Prototipação e Desenvolvimento do Protótipo: onde será feito o desenho das telas para o protótipo e avaliada qual linguagem de programação web, banco de dados, servidor web deverão ser utilizados para tal empreendimento e o esforço despendido;
+	5 - Avaliação do Resultado obtido: Analise do resultado esperado x alcançado e opção de melhorias e possíveis trabalhos futuros para aperfeiçoamento do que se propõe.
+	
+	CRONOGRAMA
+
+ATIVIDADES	MESES
+	Fev	Mar	Abr	Mai	Jun
+1. Pesquisa bibliográfica	X				
+2. Fundamentação Teórica e Levantamento de Requisitos	X	X			
+3. Prototipação e Desenvolvimento do Protótipo 		X	X		
+4. Avaliação do Resultado Obtido			X		
+5. Escrita da monografia			X	X	
+	
+	
+	REFERÊNCIAS BIBLIOGRÁFICAS
+
+	NEVES, Glauco Silva. Gerenciamento de Projetos em Dispositivos Móveis: Uma Evolução ao DotProject. 2011. Monografia (Trabalho de Conclusão de Curso) – Curso Ciência da Computação, Universidade Federal de Santa Catarina, Florianópolis, 2011. Disponível em: <http://www.gqs.ufsc.br/wp-content/uploads/2011/11/2011_Glauco_S_Neves.pdf>. Acesso em: 15 fevereiro 2014.
+
+ROCHA, Antonio Augusto Carvalho da. Desenvolvimento de Ferramenta Customizada para Gerenciamento de Múltiplos Projetos. 2005. 60 f. Monografia (Especialização em Gerenciamento de Projetos) – Pós-Graduação em Gerenciamento de Projetos, Universidade Federal do Rio de Janeiro, Escola Politécnica, 2005. Disponível em:                    <https://sites.google.com/a/poli.ufrj.br/qualharini/gesto-e-gerenciamento-de-projetos/monografias-1>. Acesso em: 17 fevereiro 2014.   
+	  
+	SILVA, Alexandre Machado. Gerenciando Projetos usando Ferramentas de Software Livre: Alternativas Disponíveis no Mercado. 2007. 43 f. Monografia (Especialização em Gerenciamento de Projetos) – Pós-Graduação em Gerenciamento de Projetos, Universidade Federal do Rio de Janeiro, Escola Politécnica, 2007. Disponível em: <https://sites.google.com/a/poli.ufrj.br/qualharini/gesto-e-gerenciamento-de-projetos/monografias-1>. Acesso em: 17 fevereiro 2014.
+
+	SIMONETTI, Daniele Cardoso. Gerenciamento de Projetos aplicado no desenvolvimento de software. 2010. Monografia (Trabalho de Graduação) – Graduação em Processamento de Dados, Centro Estadual de Educação Tecnológica “Paula Souza”, Faculdade de Tecnologia de Taquaritinga, 2010. Disponível em: <http://fotos.fatectq.edu.br/a/6521.pdf>. Acesso em: 19 fevereiro 2014.  
+
+	CONFORTO, Edivandro Carlos. Gerenciamento ágil de projetos: proposta e avaliação de método para gestão de escopo e tempo. 2009. Dissertação (Mestrado em Engenharia de Produção) – Programa de Pós-Graduação e Área de Concentração em Engenharia de Produção, Universidade de São Paulo, Escola de Engenharia de São Carlos, 2009. Disponível em: <http://www.teses.usp.br/teses/disponiveis/18/18140/tde-28072009-090239/pt-br.php>. Acesso: em 19 fevereiro 2014.               
