@@ -1,0 +1,192 @@
+**** Primeira Versão: Escrita TCC ****
+
+1.1	ESPECIFICAÇÃO DO PROBLEMA
+Muitas empresas Chinesas do ramo industrial de eletroeletrônico vêm se destacando e expandindo suas filiais em diversas partes do mundo para acompanhar o crescimento do mercado lucrativo. 
+A partir desse fato surgiu a necessidade de adoção do modelo de gerenciamento corporativo para manter um quadro de funcionários mais enxuto, com atividades compartilhadas entre os diversos sites para obtenção de agilidade na tomada de decisão, tecnologia e maior lucro em um curto espaço de tempo.
+Analisando esse modelo, o gestor nem sempre ficará sitiado no mesmo país/cidade que a sua equipe. Pode ser que por algumas vezes ao longo do ano, ele tenha que se deslocar para verificar o andamento de projetos, sentir o clima organizacional da equipe, fazer entrevistas com novos candidatos in lócus, participar de reuniões ou eventos onde é imprescindível a sua presença, mas precisará ater-se a seguinte questão:
+“Como fazer o gerenciamento das atividades do grupo sem que consiga fazer-se onipresente e onisciente?”
+
+1.2 JUSTIFICATIVA
+A escolha do tema para o desenvolvimento deste projeto dá-se a partir de um problema existente no mundo real de uma determinada empresa de eletroeletrônico de um grupo Chinês, onde a área de TI está dividida em três áreas específicas, porém com gerenciamento compartilhado entre os Sites: 
+	Infra-Estrutura – rede, email, servidores, aplicações, internet, intranet e etc.
+	SFIS (Shopfloor Integrated System) – Sistema proprietário que cuida da rastreabilidade de cada item que compõe o PA (Produto Acabado) da empresa e o próprio PA;
+	ERP (Enterprise Resource Planning) – Sistema de Gestão Empresarial que trata de todo o Business Process da empresa: SAP e legados (Softway, Mastersaf DW, Mastersaf NFe, PLM, Microsiga, BW e outros).
+Somente no Brasil, possui a Matriz Fabril sediada em Jundiaí e mais três filiais, sendo o escritório de Marketing e Vendas em São Paulo e outras duas unidades fabris em Manaus.
+Especificamente para a área de TI, possui duas gerências distintas divididas em: Infra e SFIS – com residência fixa em Manaus e ERP – com residência em São Paulo. Porém as equipes estão divididas por todos os Sites, conforme a necessidade e a demanda de cada unidade. 
+Recentemente, foi iniciado o projeto para a implantação de mais uma unidade fabril na Argentina e o time TI Brasil ficará responsável por dar o total suporte também para esta região. Além do que a gerência Brasil precisa reportar todas as atividades para o Diretor que fica na região de FuQin – China.
+Para avaliar e manter todas as atividades realizadas por cada time em dia para geração de relatório semanal WR (Weekly Report) é enviado um documento no Word para a China pelos gestores e para facilitar as anotações no dia-a-dia, os funcionários utilizam a agenda, bloco de notas, planilha em Excel para lançamento de tópicos mais importante, considerados os highlights para a composição do relatório mencionado. Depois enviam ao gerente especifico da área e o mesmo precisa ainda consolidar o resultado da equipe.
+A partir desse quadro é que surgiu a necessidade de fazer o protótipo de um Software Web para o gerenciamento dessas atividades, pois seja qual for o local físico em que o gestor ou funcionário estiver, quando conectado à internet, poderá registrar as suas atividades diárias e computar o tempo despendido em cada atendimento / projeto e através disso facilitar a geração do WR, bem como auxiliar na distribuição/delegação das tarefas, avaliando aonde há ociosidade ou sobrecarga de trabalho. Vale ainda ressaltar que esta equipe é composta por dois funcionários de nacionalidade Chinesa, por isso o protótipo do Software Web estará em Inglês, por ser considerada a linguagem universal para a empresa em questão.
+
+1.3	OBJETIVOS
+Este estudo propõe atender ao paradigma levantado na exposição do problema para um caso específico de uma determinada empresa de eletroeletrônico e será aplicado ao Setor de Tecnologia da Informação (TI).
+
+1.3.1 Objetivo Geral
+Desenvolver o protótipo de um Software Web, cuja funcionalidade, neste primeiro momento, trate o gerenciamento de atividades em um ambiente corporativo para o time de TI, para que em qualquer lugar que o usuário estiver e possua acesso a internet, ele possa fazer o lançamento diário de suas atividades e o gestor também possa fazer esse acompanhamento on time.
+
+1.3.2 Objetivos Específicos
+	Aplicar a metodologia ágil Scrum para atendimento das funcionalidades do sistema;
+	Auxiliar o gestor na delegação, distribuição e organização das tarefas;
+	Prover uma visão geral das tarefas, facilitando a tomada de decisão para o cumprimento do KPI (Key Process Indicator) individual e coletivo.
+
+1.4 ASPECTOS DE INOVAÇÃO
+O protótipo do sistema será um desenvolvimento dedicado ao estudo de caso, onde serão apresentadas as principais funcionalidades baseadas na metodologia ágil Scrum, ressaltando que a manutenção do software e o treinamento para o uso da ferramenta serão efetuados pela equipe interna da empresa.
+A principio será aplicado ao próprio setor de Tecnologia da Informação, podendo estender-se para os demais setores corporativos, onde haja o interesse em registrar as atividades de cada funcionário para obtenção de resultado sobre como a mão de obra está empregada para cada tipo de atividade. Ficará disponível em ambiente de aplicação WEB para que em qualquer lugar em que o gestor ou o funcionário se encontre, possam acessar todos os dados necessários para a obtenção de relatório e analise do que é preciso para aquele determinado momento.  
+
+1.5 TRABALHOS RELACIONADOS
+***Nesta seção serão apresentados os trabalhos que, de alguma forma, estão relacionados à sua investigação. Para tanto apresente os trabalhos feitos pelos autores identificando de que maneira sua contribuição está relacionada com o trabalho que você desenvolve. Não se esqueça de inserir as referências bibliográficas corretas. Um aspecto interessante também é você indicar de que maneira o seu trabalho complementa o trabalho desenvolvido pelos autores.
+Não é necessário ser muito extenso, aproveite para adicionar aqui as referências que você leu.***
+
+1.6 METODOLOGIA
+Para desenvolver o novo aplicativo para gerenciamento de atividades em um ambiente corporativo, este trabalho está baseado em:
+	Pesquisa Bibliográfica: onde foi feita a escolha dos trabalhos relacionados, que foram usados como base para esta pesquisa;
+	Fundamentação Teórica e Levantamento de Requisitos: onde foi feita a pesquisa de toda a base para o desenvolvimento desta ferramenta e feita a abordagem de especificação técnicas;
+	Desenvolvimento do Protótipo: onde foi avaliada qual linguagem de programação web, banco de dados e servidor web que seriam utilizados para tal empreendimento e esforço despendido;
+	Avaliação do Resultado obtido: Analise do resultado esperado x alcançado.
+
+1.7 ORGANIZAÇÃO DA ESTRUTURA DO TRABALHO
+Visando demonstrar como este trabalho foi estruturado, o mesmo foi dividido em X capítulos:
+	Primeiro Capítulo: Onde foi feita a introdução, delimitação do problema abordado, especificado os objetivo geral e específico, expostos a justificativa, aspecto de inovação, trabalhos relacionados e a metodologia aplicada.
+	Segundo Capítulo: onde será abordado todo o referencial teórico, que serviu como base para esta pesquisa aplicada.
+	Terceiro Capítulo:
+	Quarto Capítulo:
+	Quinto Capítulo:
+
+2. REFERENCIAL TEÓRICO
+Neste capítulo será fornecida toda a fundamentação teórica em que foi baseado este trabalho de pesquisa aplicada ao estudo de caso proposto.
+Foi feita uma revisão da literatura para conceito de software, categorias de software, engenharia de software com visão para o desenvolvimento ágil, abordagem do Scrum e suas características.
+Em seguida, realizou-se o estudo para as tecnologias que foram aplicadas para o desenvolvimento do protótipo e funcionalidades da ferramenta para o ambiente Web, utilizando a plataforma de desenvolvimento JEE (Java Enterprise Edition).
+
+2.1 DEFINIÇÃO DE SOFTWARE
+Segundo Pressman (2006, p.4) “[...] O software é um elemento de um sistema lógico e não de um sistema físico. [...]”
+Portanto, pode-se dizer que o software é uma seqüência de instruções que devem ser seguidas pelo computador para que realize tarefas específicas.  
+
+2.1.1 Categorias de Software
+Hoje em dia, sete amplas categorias de software de computadores apresentam desafios contínuos para os engenheiros de software (PRESSMAN, 2006, p. 6 e p.7):
+
+Software de Sistemas. Software de sistemas é uma coleção de programas escritos para servir a outros programas. Alguns – por exemplo, compiladores, editores e utilitários para gestão de arquivos – processam estruturas de informação complexas mas determinadas. Outras aplicações de sistemas (por exemplo, componentes de sistemas operacionais, acionadores, softwares de rede e processadores de telecomunicações) processam dados amplamente indeterminados. Em ambos os casos, a área de software de sistemas é caracterizada por interação intensa com o hardware do computador; uso intenso por múltiplos usuários; operação concorrente que requer ordenação, compartilhamento de recursos e sofisticada gestão de processo; estruturas de dados complexas e interfaces externas múltiplas.
+Software de Aplicação. O software de aplicação consiste de programas isolados que resolvem uma necessidade especifica do negócio. Aplicações nessa área processam dados comerciais ou técnicos de um modo que facilita as operações ou gestão/tomada de decisões técnicas do negócio. Além das aplicações convencionais de processamento de dados, o software de aplicação é usado para controlar funções do negócio em tempo real (por exemplo, processamento de transações no ponto-de-venda, controle de processo de fabricação em tempo real).  
+Software científico e de engenharia. Antigamente caracterizado por algoritmos “number crunching” (que processam números), as aplicações de software cientifico e de engenharia vão da astronomia à vulcanologia, da analise automotiva de tensões à dinâmica orbital do ônibus espacial, e da biologia molecular à manufatura automatizada. Todavia, as aplicações modernas na área científica de engenharia estão se afastando dos algoritmos numéricos convencionais. Projeto apoiado por computadores, simulação de sistemas e outras aplicações interativas começaram a adquirir características de tempo real e até de software de sistemas.
+Software embutido. O software embutido reside dentro de um produto ou sistema e é usado para implementar e controlar características e funções para o usuário final e para o próprio sistema. O software embutido pode realizar funções muito limitadas e particulares (por exemplo, o controle de teclado para um forno de microondas) ou fornecer função significativa e capacidade de controle (por exemplo, funções digitais em um automóvel tais como controle de combustível, mostradores do painel e sistemas de frenagem etc.).
+Software para linhas de produtos. Projetado para fornecer uma capacidade especifica a ser usada por muitos clientes diferentes, o software para linhas de produtos pode focalizar um mercado limitado e especial (por exemplo, processamento de texto, planilhas, gráficos por computador, multimídia, entretenimento, gestão de bancos de dados, aplicações financeiras pessoais e empresariais).
+Aplicações da Web. Aplicações da Web, “ApsWeb”, cobrem uma ampla gama de aplicações. Na sua forma mais simples, ApsWeb podem ser pouco mais que um conjunto de arquivos ligados por hipertexto que apresentam informações usando texto e poucos gráficos. No entanto, conforme as aplicações de comercio eletrônico (e-commerce) e B2B crescem em importância, as ApsWeb evoluem para sofisticados ambientes computacionais que fornecem não apenas características isoladas, funções de computação e conteúdo para o usuário final, mas também estão integradas ao banco de dados da empresa e às aplicações no negócio.
+Software para inteligência artificial. O software para inteligência artificial (AI) faz uso de algoritmos não-numéricos para resolver problemas complexos que não são passiveis de computação ou análise direta. Aplicações nessa área incluem robótica, sistemas especialistas reconhecimento de padrões (de imagem e de voz), redes neurais artificiais, prova de teoremas e jogos.
+
+2.2 NOÇÕES SOBRE ENGENHARIA DE SOFTWARE
+Apesar de centenas de autores terem desenvolvido definições pessoais de engenharia de software, uma definição proposta por Fritz Bauer [NAU69] na conferência pioneira sobre o assunto ainda serve de base para a discussão (PRESSMAN, 2006, p. 17):
+
+[Engenharia de software é] a criação de a utilização de sólidos princípios de engenharia a fim de obter softwares econômicos que sejam confiáveis e que trabalhem eficientemente em máquinas reais.
+
+Pressman (2006), “cita que a engenharia de software é uma tecnologia em camadas e qualquer abordagem de engenharia (inclusive a de software) deve se apoiar num compromisso organizacional com a qualidade.”
+Essa tecnologia em camadas está embasada com apoio em foco na qualidade e o alicerce é a camada de processo, pois mantém unidas as camadas de tecnologia e permite o desenvolvimento racional e oportuno de softwares de computador. Já os métodos fornecem a técnica sobre “como fazer” para construir os softwares e as ferramentas fornecem apoio automatizado ou semi-automatizado para o processo e os métodos. 
+Quando as ferramentas são integradas de forma que a informação criada por uma determinada ferramenta possa ser usada por outra, é estabelecido um sistema de apoio ao desenvolvimento de software, chamado engenharia de software apoiado por computador.
+
+Figura 01 - Engenharia de Software em Camadas
+ 
+Fonte: Pressman, 2006, p. 17.
+
+2.3 FUNDAMENTOS DO DESENVOLVIMENTO ÁGIL DE SOFTWARE
+Agilidade é a capacidade de chegar rapidamente ao resultado esperado.
+Em 2001, um grupo de especialistas em software se reuniu no resort Snowbird, em Utah, para rascunhar o que ficou conhecido como o Manifesto Ágil (www.agilemanifesto.br) (PHAM, A./PHAM, P., 2011, p. 39):
+
+“Estamos descobrindo melhores maneiras de desenvolver software, fazendo-o e ajudando outros a fazê-lo. Ao longo desse trabalho, começamos a valorizar:
+•	indivíduos e interações em vez de processos e ferramentas;
+•	software funcional em vez de documentação extensiva;
+•	colaboração com o cliente em vez de negociação de contrato;
+•	respostas à mudança em vez de seguimento de um plano.
+Ou seja, mesmo havendo valor nos itens da direita, valorizamos mais o item da esquerda.”
+
+Além desses quatro valores, o Manifesto Ágil tem doze princípios (PHAM, A./PHAM, P., 2011, p. 39 e p.40):
+
+1.	Nossa prioridade máxima é satisfazer o cliente por meio da entrega antecipada e contínua do software com valor.
+2.	Abraçar as mudanças de requisitos, mesmo quando o desenvolvimento já está avançado. Os processos Ágeis usam as mudanças para trazer vantagens competitivas ao cliente.
+3.	Entregar software funcional freqüentemente, indo de algumas semanas a alguns meses, com preferência para a escala de tempo mais curta.
+4.	Pessoas ligadas ao negocio e ao desenvolvimento devem trabalhar juntas diariamente, ao longo do projeto.
+5.	Construir projetos em torno de indivíduos motivados. Dê a eles o ambiente e suporte necessários, e confie que eles realizarão o trabalho.
+6.	O método mais eficiente e efetivo de transmitir informações para e dentro de uma equipe de desenvolvimento é conversando cara a cara.
+7.	Software funcional é a primeira medida de progresso.
+8.	Processos Ágeis promovem desenvolvimento sustentável. Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente.
+9.	Atenção continua à excelência técnica e um bom projeto melhoram a agilidade.
+10.	Simplicidade – a arte de maximizar a quantidade de trabalho que não precisa ser realizado – é essencial.
+11.	As melhores arquiteturas, os melhores requisitos e os melhores projetos emergem de equipes auto-organizáveis.
+12.	A intervalos regulares, a equipe reflete sobre como tornar-se mais efetiva, então se alinha e ajusta seu comportamento de acordo com essa resolução.
+
+Apesar de o Manifesto Ágil ter sido rascunhado em 2001, alguns anos depois de o Scrum ter sido anunciado na Object Oriented Programming Systems, Languages and Applications (OOPSLA) em 1996, é um fato bem conhecido entre os especialistas que ele teve grande influencia sobre o Scrum. Essa influência ficou obvia no segundo livro de Ken Schwaber, Agile Project Management with Scrum, no qual ele escreveu que o Scrum é um dos processos Ágeis com valores e princípios semelhantes aos descritos no Manifesto Ágil (PHAM, A./PHAM, P., 2011, p. 40).
+
+2.3.1 Scrum
+Segundo PHAM, A. / PHAM, P. (2011, p.41), o termo Scrum surgiu através de um artigo publicado por Hirotaka Takeuchi e Ikujiro Nonaka na Harvard Business Review de 1986. Nesse artigo, intitulado “The new new product development game” (“O novo novo jogo do desenvolvimento de produtos”), Takeuchi e Nonaka descreveram uma abordagem holística, na qual equipes de projeto são compostas de pequenas equipes multifuncionais, trabalhando com sucesso rumo a um objetivo comum, que os autores compararam a formação Scrum do rugby.
+  
+O Scrum é um framework para gerenciamento de projetos ágeis que, apesar de muito utilizado na área de desenvolvimento de software, pode ser utilizado para o planejamento, gerenciamento e desenvolvimento de qualquer produto, principalmente por ser um framework iterativo e incremental.
+A idéia principal do Scrum é controlar processo empíricos, mantendo o foco na entrega de valor de um negocio no menor tempo possível. (CRUZ, 2013, p.31)
+
+2.3.1.1 Princípio Scrum
+Conforme Pressman (2006, p. 69), os princípios Scrum são usados para guiar as atividades de desenvolvimento dentro de um processo que incorpora as atividades de arcabouço. Em cada atividade de arcabouço, as tarefas de trabalho ocorrem dentro de um padrão de processo chamado de sprint. O trabalho conduzido dentro de um sprint  é adaptado ao problema em mãos e é definido, e freqüentemente, modificado em tempo real pela equipe Scrum. O fluxo global do processo é ilustrado a seguir:
+
+
+
+
+Figura 02 – O fluxo de processo Scrum
+ 
+Fonte: Pressman, 2006, p.70.
+
+O Scrum enfatiza o uso de um conjunto de “padrões de processo de software”, que se mostraram efetivos para projetos com prazos apertados, requisitos mutantes e criticalidade de negocio. Cada um desses padrões de processo define um conjunto de atividades de desenvolvimento (PRESSMAN, 2006, p. 70).
+
+Pendência – uma lista priorizada de requisitos ou características do projeto que fornecem valor de negócio para o cliente. Itens podem ser adicionados à pendência a qualquer momento (é assim que as modificações são introduzidas). O gerente do produto avalia a pendência e atualiza as prioridades quando necessário.
+Sprints – consiste de unidades de trabalho que são necessárias para satisfazer a um requisito definido na pendência que precisa ser cumprido em um intervalo de tempo predefinido (tipicamente 30 dias). Durante o sprint, os itens em pendência a que as unidades de trabalho do sprint se destinam são congelados (isto é, não são introduzidas as modificações durante o sprint). Assim, o sprint permite que os membros da equipe trabalhem em um ambiente de curto prazo, mas estável.
+Demos – entrega o incremento de software ao cliente de modo que a funcionalidade implementada possa ser demonstrada e avaliada pelo cliente. É importante notar que a demo talvez não contenha toda a funcionalidade planejada, mas, em vez disso, as funções que podem ser entregues dentro do intervalo de tempo estabelecido.
+
+2.3.1.2 Funcionamento do Scrum
+De acordo com Cruz (2011, p. 42), a equipe de Scrum, que deveria ser uma equipe multifuncional, é composta de um Scrum Master, de um Product Owner (Dono do Produto) e da equipe de desenvolvimento (ou, simplesmente, “equipe”), com todas as habilidades necessárias (como coleta de requisitos, projeto, codificação e teste) para construir o produto de software. Veja a figura abaixo:
+
+Figura 03 – Backlog de Produto, Backlog de Release e Backlog de Sprint
+ 
+Fonte: Pham, A., Pham, P., 2011, p.42.
+
+[...] tudo começa com o Product Owner, que é responsável por obter informações dos stakeholders, ou usuários que os representem, para criar uma lista de requisitos e criar um Backlog de Produto.
+O Backlog de Produto é uma lista de requisitos priorizada, que pode incluir de tudo: de aspectos de negócios a tecnologias, questões técnicas e correções de bugs.
+[...] os requisitos de usuário para Backlog do Produto do Scrum costumam ser coletados como historias de usuários curtas, durante um workshop de um ou dois dias [..].
+Enquanto o Planejamento de Release era, de certa forma, opcional nos primórdios do Scrum, ele provou ter ajudado muitas equipes de Scrum a serem ainda mais eficazes ao longo dos anos.
+
+
+2.4 TECNOLOGIAS
+
+2.4.1 Seleção das Ferramentas
+A preparação para o ambiente de desenvolvimento iniciou-se com a seleção das ferramentas pela popularidade. 
+
+Comentar sobre a escolha de quais ferramentas empregar em um projeto de software envolve vários aspectos. Entretanto, um ponto que sempre deve ser levado em consideração é o envolvimento da comunidade de desenvolvedores em um determinado projeto. Nisso o Java tem um dos seus pontos fortes, pois além de instituições privadas que criam IDEs, por exemplo, existe uma comunidade muito forte e atuante nos projetos criados para a plataforma. As ferramentas Eclipse, Apache Tomcat e MySQL são exemplos que têm comunidades altamente atuantes, que muito contribuem para a sua evolução.
+Além disso, se você desenvolver seu projeto usando o Apache Tomcat e o MySQL, encontrará com mais facilidade algum serviço de hospedagem que tenha exatamente essa configuração. Não basta ter uma excelente idéia de um novo produto para a internet e executá-lo somente em seu computador doméstico. É preciso pensar no futuro: seu produto pode ser o próximo a ser comprado por alguns milhões de dólares por alguma megaempresa da internet! (LUCKOW, 2010; MELO,2010) 
+
+2.4.2 Linguagem Java – Um pouco da historia
+Conforme Luckow, 2010 / Melo, 2010, começou a surgir em 1991 na Sun Microsystems. Inicialmente era parte de outro projeto, chamado Green Project, que tinha como objetivo possibilitar a convergência entre computador, equipamentos eletrônicos e eletrodomésticos.
+
+Na época a linguagem era chamada de Oak (em português, “carvalho”), pois era essa a janela que James Gosling avistava da janela da sede do projeto.
+O resultado do projeto foi um controle remoto chamado 7 (StarSeven), que tinha uma interface gráfica sensível ao toque e era capaz de interagir com diversos equipamentos. A linguagem Oak, na época, surgiu justamente para controlar internamente esse equipamento.
+O controle remoto em si não vingou: ele estava muito a frente de seu tempo. Na época, as empresas de TV a cabo e vídeo por demanda não tinham condições de viabilizar o negocio.
+Depois disso, James Gosling foi encarregado de adaptar a linguagem Oak para a internet, surgindo em 1995, assim, a plataforma Java.
+Uma das principais diferenças entre a plataforma Java e as demais linguagens existentes na época é que o Java é executado sobre uma JVM, ou Java Virtual Machine. Qualquer plataforma de hardware ou equipamento eletrônico que possa executar uma maquina virtual conseguira executar Java. Isso justifica o slogan “write once, run anywhere”, ou, em português, “escreva uma vez, rode em qualquer lugar”. (LUCKOW, 2010; MELO,2010, p.25 e p.26)
+
+
+  
+CONCLUSÃO
+***A conclusão é indispensável para dar finalização formal ao trabalho, onde devem ser destacados os principais aspectos e contribuições. Uma boa forma de concluir é apresentar um resumo do que era esperado, isto é, rever o objetivo geral e os específicos do estudo, ressaltando os pontos mais significativos da argumentação. É também imprescindível, para dissertações e teses, a indicação de problemas dignos de estudos futuros.***
+***ATENÇÃO: nunca introduza assunto novo na conclusão. Evite usar citações, uma vez que neste momento o autor deve apresentar suas próprias impressões acerca de todo o trabalho efetuado. Não use também argumentações, próprias ou de outros autores, que devem estar contidas no capítulo de conceitos e revisão de literatura ou na discussão dos resultados.***
+***Identificar possíveis limitações do trabalho, decorrentes da metodologia ou outro acontecimento considerados entraves para um melhor andamento do trabalho. 
+***Indicar prováveis oportunidades de trabalhos futuros, surgidos ao longo da investigação, os quais não puderam ser esclarecidos ou não faziam parte do escopo do trabalho.***
+ 
+REFERÊNCIAS
+***indicar aqui todas as referências utilizadas, que devem ter sido (necessariamente) citadas ao longo do trabalho. Utilizar o padrão da ABNT. Consultar o Manual de normas da FUCAPI. ***. 
+
+
+BEZERRA, Rodrigo Pinheiro. Ferramenta de Feedback baseada em Scrum. 2011. 84f. Monografia (Trabalho de Conclusão de Curso) – Curso de Ciência da Computação, Faculdade Fucapi, 2011.
+
+CHRISOSTOMO, João Carlos dos Santos. Guia para normatização de trabalhos acadêmicos. Manaus: Fucapi, 2012.
+
+CRUZ, Fábio. Scrum e Guia PMBOK®unidos no gerenciamento de projetos. Rio de Janeiro: Brasport, 2013.
+
+LUCKOW, Décio Heinzelmann; MELO, Alexandre Altair de. Programação Java para Web. São Paulo: Novatec Editora, 2010. 
+
+PHAM, Andrew; PHAM, Phuong-Van. Scrum em Ação: gerenciamento e desenvolvimento Ágil de projetos de software. São Paulo: Novatec Editora: Cengage Learning, 2011.
+
+PRESSMAN, Roger S. Engenharia de Software. 6 ed. São Paulo: McGraw-Hill, 2006. 
+
+UFMG. Template / Modelo para Monografia. Disponível em:  http://ppgci.eci.ufmg.br/?download=templ%20monog%20w2007.dotx. Com acesso em outubro de 2012.
+
